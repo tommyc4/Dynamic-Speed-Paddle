@@ -1,0 +1,129 @@
+#canvas {
+	margin: auto;
+	user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    -webkit-touch-callout: none;
+    -o-user-select: none;
+    -moz-user-select: none;
+}
+@media only screen and (max-width: 600px) {
+  html {
+    transform: rotate(90deg);
+  }
+}
+@font-face {
+  font-family: 'Audiowide';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Audiowide Regular'), local('Audiowide-Regular'), url(https://fonts.gstatic.com/s/audiowide/v7/l7gdbjpo0cum0ckerWCdmA_OIxo.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+@font-face {
+  font-family: 'Rubik Mono One';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Rubik Mono One Regular'), local('RubikMonoOne-Regular'), url(https://fonts.gstatic.com/s/rubikmonoone/v7/UqyJK8kPP3hjw6ANTdfRk9YSN985TKUbcw.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+@font-face {
+  font-family: 'Lobster';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Lobster Regular'), local('Lobster-Regular'), url(https://fonts.gstatic.com/s/lobster/v21/neILzCirqoswsqX9zoymM5Ez.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+.track {
+	position:absolute;
+	//border: 2px green solid;
+	user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    -webkit-touch-callout: none;
+    -o-user-select: none;
+    -moz-user-select: none;
+}
+.easy{
+	height: 6%;
+	width:6%;
+	top:27%;
+	left: 33%;
+}
+.medium{
+	height: 6%;
+	width:10%;
+	top:27%;
+	left: 50.5%;
+}
+.impossible{
+	height: 6%;
+	width:14%;
+	top:27%;
+	left: 70%;
+}
+.small{
+	height: 6%;
+	width: 8%;
+	top:40%;
+	left: 32%;
+}
+.average {
+	height: 6%;
+	width: 11%;
+	top:40%;
+	left: 50%;
+}
+.giant{
+	height: 6%;
+	width: 8%;
+	top:40%;
+	left: 73%;
+}
+.scoreLess{
+	height: 5%;
+	width: 3%;
+	top:54%;
+	left: 34.5%;
+}
+.scoreMore{
+	height: 5%;
+	width: 3%;
+	top:54%;
+	left: 74%;
+}
+.ballLess{
+	height: 5%;
+	width: 3%;
+	top:66%;
+	left: 34.5%;
+}
+.ballMore{
+	height: 5%;
+	width: 3%;
+	top:66%;
+	left: 74%;
+}
+.changeStyleLeft{
+	height: 5%;
+	width: 3%;
+	top:75%;
+	left: 34.5%;
+}
+.changeStyleRight{
+	height: 5%;
+	width: 3%;
+	top:75%;
+	left: 74%;
+}
+.startGame{
+	height: 7%;
+	width: 16%;
+	top:87%;
+	left: 49%;
+}
+.music{
+	height: 6%;
+	width: 8%;
+	top:86%;
+	left: 78%;
+}
